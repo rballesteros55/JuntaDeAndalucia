@@ -1,0 +1,29 @@
+.buscadorContainer {
+  background-image: url("../../assets/images/buscador1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8em;
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+.buscador {
+  background-color: #ffffffd9;
+  padding: 3em;
+  border-radius: 8px;
+}
+
+.buscador input {
+  width: 500px;
+  padding: 0.5em;
+}
+
+.buscadorText {
+  display: flex;
+  background-color: #087021;
+}
+
+.buscadorText button {
+  color: white;
+}

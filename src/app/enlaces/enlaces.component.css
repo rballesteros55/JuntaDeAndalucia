@@ -1,0 +1,53 @@
+.carousel {
+  margin-top: 1em;
+  padding: 5em;
+}
+
+.carousel-indicators {
+  margin-top: 10em;
+}
+
+.carousel-indicators li {
+  list-style: none;
+}
+
+.carousel-indicators li.active {
+  color: #087021;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #087021;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #087021;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-evenly;
+  height: max-content;
+}
+
+.cardContent a {
+  height: auto;
+  text-decoration: none;
+}
+
+.cardContent a:hover {
+  font-weight: bold;
+  color: #087021;
+}
+
+.card {
+  width: 192.5px;
+}
+
+.card-title {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+}

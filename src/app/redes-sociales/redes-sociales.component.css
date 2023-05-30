@@ -1,0 +1,14 @@
+.enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  padding-right: 2em;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

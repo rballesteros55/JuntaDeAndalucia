@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner img {
+  width: 400px;
+}
+
+.bannerLinks {
+  display: flex;
+}
+
+.bannerLinks li {
+  list-style: none;
+  color: #087021;
+  margin-bottom: 0;
+}
+
+.bannerLinks a {
+  color: #087021;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.bannerLinks a:hover {
+  border-bottom: 3px solid #087021;
+}
